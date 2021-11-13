@@ -38,7 +38,7 @@ public class Main {
             e.printStackTrace();
         } finally {
             if (pi4j != null) {
-                pi4j.shutdown();
+                pi4j.shutdown();  
             }
         }
     }
