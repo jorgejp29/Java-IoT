@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="maven-antrun-" default="main">
   <target name="main">
-    <condition else="/home/jorge/Documentos/GitHub/Java-IoT/ejercicio1-maven/app/target" property="finalJarDir" value="/home/jorge/Documentos/GitHub/Java-IoT/ejercicio1-maven/app/target/lib">
+    <condition else="/home/jorge/Documentos/GitHub/Java-IoT/ejercicio1Maven/app/target" property="finalJarDir" value="/home/jorge/Documentos/GitHub/Java-IoT/ejercicio1Maven/app/target/lib">
       <equals arg2="true" arg1="true" casesensitive="" />
     </condition>
   </target>
